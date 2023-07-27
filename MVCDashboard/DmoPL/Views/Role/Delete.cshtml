@@ -1,0 +1,17 @@
+﻿@model RoleViewModel
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Are You to Delete this Role</h1>
+<form asp-action="Delete">
+	<div>
+	<div asp-validation-summary="All"></div>
+		<partial name="_DetailDeletePartialViewRole" model="@Model" />
+
+			<input type="submit" value="Delete" class="btn btn-primary" /> |
+			<a asp-action="Index" class="btn btn-light">Back To List</a>
+
+	</div>
+</form>
+

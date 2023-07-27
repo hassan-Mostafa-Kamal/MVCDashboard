@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Candle-Store\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Candle-Store\\.nuget\\packages"
+    ]
+  }
+}
